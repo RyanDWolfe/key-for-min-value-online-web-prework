@@ -7,11 +7,8 @@ def key_for_min_value(name_hash)
   name_hash.collect do |name, num|
     if num == nil
       least = num
-    elsif num <= least
+    else num <= least
       least = num
-      pos += 1
-    else
-      pos += 1
     end
   end
   name_hash.index(least)
