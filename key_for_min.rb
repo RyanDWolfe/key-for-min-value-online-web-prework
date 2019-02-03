@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   pos = 0
+  least = ""
   name_hash.collect do |name, num|
     least = num
     if num <= least
