@@ -13,6 +13,6 @@ def key_for_min_value(name_hash)
       pos += 1
     end
   end
-  least += -1
+  least += 1
   name_hash.index(least)
 end
